@@ -1,1 +1,31 @@
-
+# 첫 접속 시 종족/직업 선택권 재료(종이 2, 네더라이트 주괴 1, 네더의 별 1) 지급
+give-starter-materials: true
+ 
+# LibsDisguises 플러그인이 있으면 어인이 지상에서 물고기(대구) 모습으로 변함
+use-libsdisguises: true
+ 
+# 직업 '추가능력'이 해금되는 전직 단계 (0 = 처음부터, 3 = T3)
+extra-ability-tier: 3
+ 
+# 궁수 시작 화살 개수
+archer-starter-arrows: 32
+ 
+# 흡혈귀
+vampire-fire-damage-multiplier: 2.0
+vampire-sun-burn: true
+ 
+# 음악가
+musician-affects-mobs: true
+musician-buff-cooldown-seconds: 15
+ 
+# 모루 제작 (필요 경험치 레벨)
+anvil-level-cost: 1
+ 
+# 제작 성공 확률 (0.0 ~ 1.0)
+chances:
+  copper: 0.8
+  iron: 0.5
+  gold: 0.5
+  diamond: 0.2
+  netherite: 0.5
+ 
