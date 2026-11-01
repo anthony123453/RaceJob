@@ -1,19 +1,60 @@
-name: RaceJob
-version: 1.0.0
-main: kr.racejob.RaceJobPlugin
-api-version: '1.21'
-softdepend: [LibsDisguises]
-commands:
-  race:
-    description: 종족 선택/확인
-    aliases: [종족]
-  job:
-    description: 직업 선택/확인
-    aliases: [직업]
-  rj:
-    description: 관리자 명령어
-    permission: racejob.admin
-permissions:
-  racejob.admin:
-    default: op
+# 첫 접속 시 종족/직업 선택권 재료(종이 2, 네더라이트 주괴 1, 네더의 별 1) 지급
+
+기브스타터재료: 맞아요
+
  
+
+# LibsDisguises 플러그인이 있으면 어인이 지상에서 물고기(대구) 모습으로 변함
+
+use-libsdisguises: true
+
+ 
+
+# 직업 '추가능력'이 해금되는 전직 단계 (0 = 처음부터, 3 = T3)
+
+추가 능력 등급: 3
+
+ 
+
+# 궁수 시작 화살 개수
+
+궁수-스타터-화살: 32
+
+ 
+
+# 흡혈귀
+
+뱀파이어 불 피해 배수: 2.0
+
+뱀파이어-선-번: 진짜
+
+ 
+
+# 음악가
+
+뮤지션이 군중에게 영향을 준다: 맞아요
+
+뮤지션-버프 쿨다운 초: 15
+
+ 
+
+# 모루 제작 (필요 경험치 레벨)
+
+모루 레벨-비용: 1
+
+ 
+
+# 제작 성공 확률 (0.0 ~ 1.0)
+
+확률:
+
+구리: 0.8
+
+철: 0.5
+
+골드: 0.5
+
+다이아몬드: 0.2
+
+네더라이트: 0.5
+
