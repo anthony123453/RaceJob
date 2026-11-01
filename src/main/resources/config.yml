@@ -1,1 +1,19 @@
-
+name: RaceJob
+version: 1.0.0
+main: kr.racejob.RaceJobPlugin
+api-version: '1.21'
+softdepend: [LibsDisguises]
+commands:
+  race:
+    description: 종족 선택/확인
+    aliases: [종족]
+  job:
+    description: 직업 선택/확인
+    aliases: [직업]
+  rj:
+    description: 관리자 명령어
+    permission: racejob.admin
+permissions:
+  racejob.admin:
+    default: op
+ 
